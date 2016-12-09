@@ -38,6 +38,7 @@ var plumber = require('gulp-plumber');
 // обращение к файловой системе
 var fs = require('fs');
 
+/// Сборка проекта
 
 // Очищаем папку dist
 gulp.task('clean', function () {
@@ -50,7 +51,6 @@ gulp.task('fonts', ['clean'], function () {
   return gulp.src('app/fonts/*.*')
   .pipe(gulp.dest('dist/fonts/'))
 });
-
 
 // минифицируем графику и сохраняем в папку для
 // продакшена, c предварительно добавленными шрифтами
@@ -123,7 +123,7 @@ gulp.task('sprite', function () {
 // компиляция less 
 // При ошибке в компиляции падает gulp, нужен перезапуск
 gulp.task('less', function () {
-  return gulp.src('app/less/main.less')
+  return gulp.src('app/less/style.less')
   .pipe(less())
   .pipe(autoprefixer({
     browsers: ['last 15 versions'],
