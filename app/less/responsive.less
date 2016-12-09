@@ -1,0 +1,69 @@
+
+// десктопный вариант
+
+@media screen and (min-width: (@mobile-max-checkout-width + 1)) {
+
+  @import url(blocks/header.less);
+  @import url(blocks/nav.less);
+  @import url(blocks/main.less);
+  @import url(blocks/footer.less);
+
+  .container{
+    max-width: @desktop-container-max-width;
+    min-width: @desktop-container-min-width;
+    padding-left: @desktop-container-padding;
+    padding-right: @desktop-container-padding;
+}
+
+  .only-mobile {
+    display: none;
+  }
+
+  @import url(blocks/header.less);
+
+}
+
+//////////////////////////////////////////////////////////
+
+// мобильный вариант
+
+@media screen and (max-width: @mobile-max-checkout-width) {
+
+  @import url(blocks/header-mobile.less);
+  @import url(blocks/nav-mobile.less);
+  @import url(blocks/main-mobile.less);
+  @import url(blocks/footer-mobile.less);
+
+  .container {
+    max-width: @mobile-container-max-width;
+    min-width: @mobile-container-min-width;    
+    padding-left: @mobile-container-padding;
+    padding-right: @mobile-container-padding;
+  }
+
+  .only-desktop {
+    display: none;
+  }
+
+  .btn {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.02);
+  outline: none;
+  // min-width: 170px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+{
+  "name": "bower-components",
+  "version": "0.1.0",
+  "authors": [
+    "Denis Zakharchenko <den.zakh@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize-css": "^4.2.0"
+  },
+  "overrides": { 
+  }
+}
