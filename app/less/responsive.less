@@ -3,10 +3,12 @@
 
 @media screen and (min-width: (@mobile-max-checkout-width + 1)) {
 
-  @import url(blocks/header.less);
+  // @import url(blocks/header.less);
   @import url(blocks/nav.less);
   @import url(blocks/main.less);
   @import url(blocks/footer.less);
+
+  @import url(blocks/card.less);
 
   .container{
     max-width: @desktop-container-max-width;
@@ -33,6 +35,8 @@
   @import url(blocks/nav-mobile.less);
   @import url(blocks/main-mobile.less);
   @import url(blocks/footer-mobile.less);
+
+  @import url(blocks/card-mobile.less);
 
   .container {
     max-width: @mobile-container-max-width;
