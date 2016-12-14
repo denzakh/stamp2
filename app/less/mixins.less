@@ -42,3 +42,25 @@
   position: absolute;
   content: "";
 }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-effect {
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.close-cross(@scale: 2) {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  line-height: 10px;
+  transform: scale(@scale) rotate(45deg);
+  color: #808080;
+  cursor: pointer;
+}

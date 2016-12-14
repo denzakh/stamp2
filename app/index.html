@@ -98,7 +98,7 @@
       <section class="card__list">
         <div class="card">
           <h4 class="card__title">Клише</h4>
-          <div class="card__ing-box"><img src="../img/stamps-1.png" alt="" class="card__img"></div>
+          <div class="card__ing-box"><img src="img/stamp-klishe.png" alt="" class="card__img"></div>
           <div class="card__order">
             <div class="card__prices">
               <span class="card__price-text">Новая печать</span>
@@ -120,7 +120,7 @@
         </div>
         <div class="card">
           <h4 class="card__title">"На пешке"</h4>
-          <div class="card__ing-box"><img src="../img/stamps-2.png" alt="" class="card__img"></div>
+          <div class="card__ing-box"><img src="img/stamp-hand.png" alt="" class="card__img"></div>
           <div class="card__order">
             <div class="card__prices">
               <span class="card__price-text">Новая печать</span>
@@ -142,7 +142,7 @@
         </div>
         <div class="card">
           <h4 class="card__title">На остнастке "автомат"</h4>
-          <div class="card__ing-box"><img src="../img/stamps-3.png" alt="" class="card__img"></div>
+          <div class="card__ing-box"><img src="img/stamp-automat.png" alt="" class="card__img"></div>
           <div class="card__order">
             <div class="card__prices">
               <span class="card__price-text">Новая печать</span>
@@ -164,7 +164,7 @@
         </div>
         <div class="card">
           <h4 class="card__title">На карманной остнастке</h4>
-          <div class="card__ing-box"><img src="../img/stamps-4.png" alt="" class="card__img"></div>
+          <div class="card__ing-box"><img src="img/stamp-hand.png" alt="" class="card__img"></div>
           <div class="card__order">
             <div class="card__prices">
               <span class="card__price-text">Новая печать</span>
@@ -186,7 +186,7 @@
         </div>
         <div class="card disabled">
           <h4 class="card__title">Штамп</h4>
-          <div class="card__ing-box"><img src="../img/stamps-5.png" alt="" class="card__img"></div>
+          <div class="card__ing-box"><img src="img/stamp-stamps.png" alt="" class="card__img"></div>
           <div class="card__order">
             <div class="card__prices">
               <span class="card__price-text">Новая печать</span>
@@ -208,7 +208,7 @@
         </div>
         <div class="card">
           <h4 class="card__title">Факсимиле</h4>
-          <div class="card__ing-box"><img src="../img/stamps-6.png" alt="" class="card__img"></div>
+          <div class="card__ing-box"><img src="img/stamp-faximile.png" alt="" class="card__img"></div>
           <div class="card__order">
             <div class="card__prices">
               <span class="card__price-text">Новая печать</span>
@@ -228,8 +228,175 @@
       </section>      
     </div>
       
-    
   </main>
+
+<!-- ------------------------ страница заказа ------------------------------- -->
+
+  <article class="popup">
+  
+    <section class="order__header">
+      <div class="container">
+        <h1 class="order__title">Форма заказа</h1>
+        <div class="order__subtitle">
+          будем рады ответить на любые вопросы <br> по телефону 8 800 333 4744
+        </div>
+      </div>
+    </section>
+    
+    <section class="order__step order__step--1">
+      <div class="container order__step-container">
+        <div class="order__step-box-left">
+          <div class="order__stamp-step">1.</div>
+          <div class="order__stamp-type">Новая печать</div>
+          <div class="order__stamp-name">На оснастке «автомат»</div>
+          <div class="order__stamp-img"><img src="img/stamp-automat.png" alt=""></div>
+        </div>
+        <div class="order__step-box-center">
+          <div class="order__table  order__table--row1">
+            <div class="order__table-cell">Цена</div>
+            <div class="order__table-cell order__table-cell--center">Количество</div>
+            <div class="order__table-cell">Сумма</div>
+          </div>
+          <div class="order__table  order__table--row2">
+            <div class="order__table-cell ">500 руб</div>
+            <div class="order__table-cell order__table-cell--center">
+              <div class="order__number-menu">
+                <button class="btn order__number-btn" type="button">&minus;</button>
+                <div class="order__number-indicator">1</div>
+                <button class="btn order__number-btn" type="button">+</button>
+              </div>
+            </div>
+            <div class="order__table-cell ">500 руб</div>
+          </div>
+          <textarea class="order__table-comment">Комментарии к печати...</textarea>
+          <div class="order__add-menu">
+            <label>
+              <input type="checkbox">
+                <span class="order__add-text">
+                Добавить такую же печать на карманной оснастке — удобно носить с собой (1 шт.)
+                </span>
+              </label>
+            <label>
+              <input type="checkbox">
+                <span class="order__add-text">
+                Добавить дополнительную штемпельную подушку 
+                </span>
+            </label>
+          </div>
+        </div>        
+        <div class="order__step-box-right">
+          <button class="btn" type="button">Удалить</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="order__step order__step--2">
+      <div class="container order__step-container">
+        <div class="order__step-box-left">
+          <div class="order__stamp-step">2</div>
+          <div class="order__stamp-type">Печать по оттиску</div>
+          <div class="order__stamp-name">На карманной оснастке</div>
+          <div class="order__stamp-img"><img src="img/stamp-hand.png" alt=""></div>
+        </div>
+        <div class="order__step-box-center">
+          <div class="order__table  order__table--row1">
+            <div class="order__table-cell">Цена</div>
+            <div class="order__table-cell order__table-cell--center">Количество</div>
+            <div class="order__table-cell">Сумма</div>
+          </div>
+          <div class="order__table  order__table--row2">
+            <div class="order__table-cell ">500 руб</div>
+            <div class="order__table-cell order__table-cell--center">
+              <div class="order__number-menu">
+                <button class="btn order__number-btn" type="button">&minus;</button>
+                <div class="order__number-indicator">1</div>
+                <button class="btn order__number-btn" type="button">+</button>
+              </div>
+            </div>
+            <div class="order__table-cell ">500 руб</div>
+          </div>
+          <div class="order__droparea">
+            <div class="order__droparea-title">Загрузите скан или фотографию оттиска:</div>
+            <div class="order__droparea-file-box">
+            <!-- вообще кастомизировать инпут загрузки кажется не очень хорошей идеей 
+                              https://habrahabr.ru/post/189570/ -->
+              <label class="order__file-btn-box">                
+                <div class="order__file-pseudo-btn">
+                  <span>Загрузить фаил</span>
+                  <input type="file" class="order__file-input">               
+                </div>               
+              </label>
+              <div class="order__file-name">
+                <span class="order__file-name-inner">имя-файла</span>
+                <span class="order__file-del">+</span>
+              </div>              
+            </div>
+          </div>
+          <div class="order__add-menu">
+            <label>
+              <input type="checkbox" checked>
+              <span class="order__add-text">
+                Добавить такую же печать на карманной оснастке — удобно носить с собой (1 шт.)
+              </span>
+            </label>
+            <label>
+              <input type="checkbox">
+              <span class="order__add-text">
+                Добавить дополнительную штемпельную подушку 
+              </span>
+            </label>
+          </div>
+        </div>        
+        <div class="order__step-box-right">
+          <button class="btn order__step-del-btn" type="button">Удалить 
+            <span class="order__step-del-cross">+</span> 
+          </button>
+        </div> 
+      </div>
+    </section>    
+    <section class="order__step order__step--3">
+      <div class="container order__step-container">
+        <div class="order__step-box-center">
+          <div class="order__add-stamp">
+            <div class="order__add-stamp-plus"></div>
+            <div class="order__add-stamp-text">Добавить другую печать</div>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+    <section>
+      <div class="delivery">
+        <div class="delivery__left-box"> 
+          <h4 class="delivery__title">Выберите доставку:</h4>
+          <div class="delivery__confirmation-box">
+            <input id="delivery__confirmation-one" class="delivery__confirmation-input" name="delivery" type="radio" checked>
+            <label for="delivery__confirmation-one" class="delivery__confirmation-text">На следующий день &ndash; бесплатно</label>
+            <input id="delivery__confirmation-two" class="delivery__confirmation-input" name="delivery" type="radio">
+            <label for="delivery__confirmation-two" class="delivery__confirmation-text">День в день до 18:00 (заказ до 15:00) &ndash; 400 р</label>
+            <input id="delivery__confirmation-three" class="delivery__confirmation-input" name="delivery" type="radio">
+            <label for="delivery__confirmation-three" class="delivery__confirmation-text">Изготовление и доставка за 3 часа  &ndash; 800 р</label>
+          </div>
+          <div class="delivery__contactact-box">
+            <div class="delivery__contactact-title">Введите Ваши контактные данные:</div>
+            <div class="contacts-info">
+              <input class="delivery__contactact-input" type="text" placeholder="+7 (___)___-__-__">
+              <input class="delivery__contactact-input" type="text" placeholder="Введите ваш email">
+            </div>
+            <div class="delivery__contactact-subtitle">мы свяжемся с вами в течение 10 минут и уточним все детали заказа</div>
+          </div>
+        </div>
+        <div class="delivery__right-box"> 
+          <h4 class="delivery__title">Итого:</h4> 
+          <div class="delivery__price">
+            <span class="delivery__sum">999</span> &#8381;
+          </div>
+          <div class="delivery__btn btn">Доставить печати</div>
+        </div>    
+      </div> 
+    </section> 
+
+  </article>
 
 
 
